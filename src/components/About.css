@@ -1,0 +1,21 @@
+.about-container {
+  max-width: 700px;
+  margin: 3rem auto 0 auto;
+  background: rgba(30, 32, 38, 0.85);
+  color: #e6e6e6;
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  border-radius: 1.2rem;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  box-shadow: 0 2px 24px rgba(0,0,0,0.18);
+}
+.about-container h1 {
+  color: #f3f3f3;
+  font-size: 2.2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+.about-container p {
+  color: #bfc2c7;
+  font-size: 1.2rem;
+  margin: 0;
+}
