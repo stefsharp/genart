@@ -1,0 +1,28 @@
+.painting-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.painting-tile {
+  background: #23272f;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  outline: none;
+}
+.painting-tile:focus, .painting-tile:hover {
+  transform: scale(1.04);
+  box-shadow: 0 4px 32px rgba(0,0,0,0.28);
+}
+.painting-tile img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
